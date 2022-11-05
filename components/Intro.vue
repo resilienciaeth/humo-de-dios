@@ -51,7 +51,7 @@
         @playing="updatePaused"
         @pause="updatePaused"
       >
-        <source src="https://vimeo.com/767503527#t=0" />
+        <source src="@/assets/video/videonew.webm" />
         >
       </video>
     </div>
