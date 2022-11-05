@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "Rumble Brave Rough";
+      src: local("Rumble Brave Rough"), url("@/assets/fonts/rumble-brave-rough.otf");
+    }
+    @font-face {
+        font-family: "LouisaCP";
+        src: url("@/assets/fonts/LouisaCP.otf");
+    }
+
+    @font-face {
+        font-family: "Calisto MT";
+        src: url("@/assets/fonts/CALIST.TTF");
+    }
+
+}
+
+/* hide scrollbar but allow scrolling */
+body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+ body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
