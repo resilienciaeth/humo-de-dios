@@ -49,11 +49,14 @@
         controls
         autoplay
         playsinline
-        src="/assets/video/videonew.webm"
         muted
         @canplay="updatePaused"
         @playing="updatePaused"
         @pause="updatePaused"
+      >
+        <source  autoplay
+        playsinline
+        muted src="@/assets/video/videonew.webm" />
         >
       </video>
     </div>
