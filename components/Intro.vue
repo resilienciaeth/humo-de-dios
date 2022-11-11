@@ -47,6 +47,7 @@
         ref="video"
         :poster="require('@/assets/img/placeholder.png')"
         controls
+        muted
         @canplay="updatePaused"
         @playing="updatePaused"
         @pause="updatePaused"
