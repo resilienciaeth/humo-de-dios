@@ -54,9 +54,7 @@
         @playing="updatePaused"
         @pause="updatePaused"
       >
-        <source  autoplay
-        playsinline
-        muted :src="require('@/assets/video/videonew.webm')" />
+        <source src="@/assets/video/videonew.mp4" />
         >
       </video>
     </div>
