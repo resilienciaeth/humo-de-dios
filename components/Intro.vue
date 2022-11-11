@@ -56,7 +56,7 @@
       >
         <source  autoplay
         playsinline
-        muted src="@/assets/video/videonew.webm" />
+        muted :src="require('@/assets/video/videonew.webm')" />
         >
       </video>
     </div>
