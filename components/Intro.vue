@@ -49,7 +49,7 @@
         controls
         autoplay
         playsinline
-        src="@/assets/video/videonew.webm"
+        src="/assets/video/videonew.webm"
         muted
         @canplay="updatePaused"
         @playing="updatePaused"
