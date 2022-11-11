@@ -47,6 +47,8 @@
         ref="video"
         :poster="require('@/assets/img/placeholder.png')"
         controls
+        preload="auto"
+        playsinline
         muted
         @canplay="updatePaused"
         @playing="updatePaused"
