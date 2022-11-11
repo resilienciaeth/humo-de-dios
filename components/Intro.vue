@@ -48,7 +48,7 @@
         :poster="require('@/assets/img/placeholder.png')"
         controls
         preload="auto"
-        playsinline
+        playsIn
         muted
         @canplay="updatePaused"
         @playing="updatePaused"
