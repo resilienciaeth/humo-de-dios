@@ -47,13 +47,13 @@
         ref="video"
         :poster="require('@/assets/img/placeholder.png')"
         controls
-        playsInline
+        autoplay
+        playsinline
+        src="@/assets/video/videonew.webm"
         muted
         @canplay="updatePaused"
         @playing="updatePaused"
         @pause="updatePaused"
-      >
-        <source src="@/assets/video/videonew.webm" />
         >
       </video>
     </div>
